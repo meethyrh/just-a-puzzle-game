@@ -7,7 +7,7 @@
         <link rel="icon" href="../../ICONS/begining.png">
     </head>
     <body>
-    <a href="http://localhost:8080/JustAPuzzleGame/sleepwalk/theremin.php" class='menu'><img src="button.png" alt="button" width='200px'></a>
+    <a href="../../sleepwalk/theremin.php"><img src="button.png" alt="button" width='200px'><img src="button.png" alt="button" width='200px'></a>
         <article>
             <p>
             Hoc inmaturo interitu ipse <em>Fight the devil</em> quoque sui pertaesus excessit e vita <br> 
