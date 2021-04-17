@@ -15,7 +15,7 @@
                     if (isset($_GET['submit'])) {
                         $MDP = $_GET['password'];
                         if ($MDP == '8xty0pf4ZE') {
-                            echo '<i style="color:rgb(23, 255, 2);font-size:30px;font-family: digital-7;">System Hacked, here is your link: localhost:8080/JustAPuzzleGame/back_to_the_past/break.php </i> ';
+                            echo '<i style="color:rgb(23, 255, 2);font-size:30px;font-family: digital-7;">System Hacked, here is your link: ../back_to_the_past/break.php </i> ';
                         }
                         else {
                             echo '<i style="color:rgb(23, 255, 2);font-size:30px;font-family: digital-7;">ERROR</i> ';
