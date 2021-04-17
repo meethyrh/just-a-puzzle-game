@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>QOSYAFIW 0XSAVPHM</h1>
-        <a href="http://localhost:8080/JustAPuzzleGame/sleepwalk/theremin.php"><img src="button.png" alt="button" width='200px'></a>
+        <a href="../../sleepwalk/theremin.php"><img src="button.png" alt="button" width='200px'></a>
         <section>
             <aside class='left'>
                 <p>3-6-5-20 <br> 7-1-4-9</p>
