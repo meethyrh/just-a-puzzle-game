@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'prisma';
+    src: url('Prisma.ttf');
+}
+
+@font-face {
+    font-family: 'street';
+    src: url(street\ cred.ttf);
+}
+
+body {
+    background-image: url('background.gif');
+    background-size: cover;
+}
+
+p {
+    font-family: 'prisma';
+    color: snow;
+    font-size: 4em;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: normal;
+    text-transform: lowercase;
+    font-family: 'street';
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    position: relative;
+    left: 570px;
+    transition-duration: 1s;
+    
+}
+
+a:hover {
+    border: 3px solid seashell;
+    border-radius: 100% 100% 100% 100%;
+    background-color: seashell;
+}

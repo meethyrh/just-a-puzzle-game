@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "bananaSplit";
+    src: url('BananaYeti-Extrabold\ Trial.ttf');
+}
+
+body{
+    background-image: url('backG.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    font-family: 'bananaSplit';
+    font-size: 10em;
+    text-align: center;
+}
+
+
+img {
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    left: -20px;
+}
+
+audio {
+    position: relative;
+    bottom: 400px;
+    right: 25px;
+}
+
+#hint{
+    font-size: 1.5em;
+    position: relative;
+    bottom: 500px;
+    color: rgb(0, 0, 0);
+}
+
+em {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url(../../Blog/font/Minecraft.ttf);
+}
+
+h1 {
+    font-family: 'minecraft';
+    font-size: 3em;
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    font-family: 'minecraft';
+    font-size: 1em;
+    text-align: center;
+    color: rgb(74, 199, 62);
+}
+
+body {
+    background-color: black;
+}

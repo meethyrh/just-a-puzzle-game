@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "rothenbg";
+    src: url('font/rothenbg.ttf');
+}
+
+@font-face {
+    font-family: "dovahkiin";
+    src: url(font/Dovahkiin.otf);
+}
+
+body {
+    background-image: url('images/background1.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+h1 {
+    font-family: 'rothenbg';
+    font-size: 100px;
+    text-align: center;
+    color: rgb(179, 0, 0);
+    background-color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+    transition: 1s;
+}
+
+h1:hover {
+    background-color: rgb(179, 0, 0);
+    color: black;
+}
+
+figure {
+    text-align: center;
+    margin-left: 423px;
+    margin-right: 423px;
+}
+
+#figcap {
+    color: white;
+    font-family: 'dovahkiin';
+}
+
+em {
+    font-style: italic;
+}
+
+#link {
+    text-align: right;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: cornsilk;
+}
+
+a:active {
+    background-color: crimson;
+}
+
+#section {
+    display: flex;
+}
+
+#latin {
+    width: 250px;
+    height: 250px;
+    text-align: justify;
+    overflow: auto;
+}

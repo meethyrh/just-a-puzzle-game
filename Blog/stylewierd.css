@@ -1,0 +1,31 @@
+@font-face {
+    font-family: '8bit';
+    src: url(font/8bitOperatorPlus-Bold.ttf);
+}
+
+h1 {
+    font-size: 200px;
+    font-family: '8bit';
+}
+
+p {
+    text-align: center;
+}
+
+em {
+    color: gold;
+}
+
+body {
+    background-color: darkorange;
+}
+
+a:hover {
+    position: relative;
+    top: 10px;
+}
+
+a:active {
+    position: relative;
+    top: -10px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: '8bit';
+    src: url(font/8bitOperatorPlus-Bold.ttf);
+}
+
+p {
+    font-family: '8bit';
+    font-size: 100px;
+    text-align: center;
+    color: red;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+em {
+    color: red;
+    text-decoration: solid;
+    font-style: normal;
+}
+
+em:hover {
+    background-color: red;
+    color: black;
+}
