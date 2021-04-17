@@ -18,7 +18,7 @@
             <br> By the way, you did well on the last puzzle, here is your link: 
             <br> localhost:8080/ an error has occured, please search your link with your brain
             <br> Did you really think i would giv it to you like that... XDDDDDDDDDDDDD
-            <br> Well, i am a kind dude, so here is the first part of the link : localhost:<em>8080</em>/JustAPuzzleGame/sleepwalk/......php
+            <br> Well, i am a kind dude, so here is the first part of the link : ../sleepwalk/......php
         </p>
     </body>
 </html>
