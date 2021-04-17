@@ -29,17 +29,17 @@
         </form>
 
         <ul>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/blog/index.html"><img src="lvl1.png" alt="level1" width='200px'></a></li>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/blog/8bit.html"><img src="lvl2.png" alt="level2" width='200px'></a></li>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/prepare_to_cry/prepare_to_cry.php"><img src="lvl3.png" alt="level3" width='200px'></a></li>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/back_to_the_past/break.php"><img src="lvl4.png" alt="level4" width='200px'></a></li>
+            <li><a href="../blog/index.html"><img src="lvl1.png" alt="level1" width='200px'></a></li>
+            <li><a href="../blog/8bit.html"><img src="lvl2.png" alt="level2" width='200px'></a></li>
+            <li><a href="../prepare_to_cry/prepare_to_cry.php"><img src="lvl3.png" alt="level3" width='200px'></a></li>
+            <li><a href="../back_to_the_past/break.php"><img src="lvl4.png" alt="level4" width='200px'></a></li>
         </ul>
 
         <ul>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/B_side/spacetrip/space_trip.php"><img src="spacetripB.png" alt="spacetrip" width='200px'></a></li>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/B_side/musicbox/musicbox.php"><img src="musicbox.png" alt="musicbox" width='200px'></a></li>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/B_side/leviathan/leviathan.php"><img src="leviathan.png" alt="leviathan" width='200px'></a></li>
-            <li><a href="http://localhost:8080/JustAPuzzleGame/B_side/keyword/keyword.php"><img src="key_word.png" alt="key word" width='200px'></a></li>
+            <li><a href="../B_side/spacetrip/space_trip.php"><img src="spacetripB.png" alt="spacetrip" width='200px'></a></li>
+            <li><a href="../B_side/musicbox/musicbox.php"><img src="musicbox.png" alt="musicbox" width='200px'></a></li>
+            <li><a href="../B_side/leviathan/leviathan.php"><img src="leviathan.png" alt="leviathan" width='200px'></a></li>
+            <li><a href="../B_side/keyword/keyword.php"><img src="key_word.png" alt="key word" width='200px'></a></li>
         </ul>
         <?php
             if (isset($_GET['submit'])) {
@@ -50,7 +50,7 @@
             }
         ?>
 
-        <br><a href="http://localhost:8080/JustAPuzzleGame"><img src="begining.png" alt="DO NOT TOUCH THIS" width='200px'></a>
+        <br><a href="../index.html"><img src="begining.png" alt="DO NOT TOUCH THIS" width='200px'></a>
 
     </body>
 </html>
