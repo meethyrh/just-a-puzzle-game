@@ -23,6 +23,6 @@
             <img src="compass.png" alt="compass" width='1000px'>
         </figure>
 
-        <a href="http://localhost:8080/JustAPuzzleGame/sleepwalk/theremin.php"><img src="button.png" alt="button" width='200px'></a>
+        <a href="../../sleepwalk/theremin.php"><img src="button.png" alt="button" width='200px'></a>
     </body>
 </html>
