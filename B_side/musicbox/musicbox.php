@@ -7,7 +7,7 @@
         <link rel="icon" href="../../ICONS/begining.png">
     </head>
     <body>
-        <a href="http://localhost:8080/JustAPuzzleGame/sleepwalk/theremin.php"><img src="button.png" alt="button" width='200px'></a>
+        <a href="../../sleepwalk/theremin.php"><img src="button.png" alt="button" width='200px'></a>
         <figure>
             <img src="capture.png" alt="sheet">
         </figure>
