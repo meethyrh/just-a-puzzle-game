@@ -3,10 +3,28 @@
     src: url('Blog/font/Minecraft.ttf');
 }
 
-body {
-    background-image: url('images/background.gif');
-    background-size: contain;
-    background-position: center;
+@media screen and (min-width: 720px){
+    body {
+        background-image: url('images/background.gif');
+        background-size: fill;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 720px){
+    body {
+        background-image: url('images/croped_bg.gif');
+        background-size: fill;
+        background-position: center;
+    }
+}
+
+@media screen and (max-device-width: 480px){
+    body {
+        background-image: url('images/croped_bg.gif');
+        background-size: fill;
+        background-position: center;
+    }
 }
 
 h1 {
@@ -41,6 +59,7 @@ img {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 200px;
   }
   
   img:hover {

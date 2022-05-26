@@ -1,79 +1,81 @@
 @font-face {
-    font-family: "rothenbg";
-    src: url('font/rothenbg.ttf');
+    font-family: '8bit';
+    src: url(font/8bitOperatorPlus-Bold.ttf);
 }
 
-@font-face {
-    font-family: "dovahkiin";
-    src: url(font/Dovahkiin.otf);
+
+@media screen and (min-width: 700px) and (min-height: 710px){
+    body {
+        background-image: url('images/bg_sqr.png');
+        background-size: fill;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    span {
+        color: white;
+        font-size: 3em;
+        position: relative;
+        margin-top: auto;
+        margin-left: 41%;
+        font-family: '8bit';
+        
+    }
+
+    a {
+        display: none;
+    }
 }
 
-body {
-    background-image: url('images/background1.jpg');
-    background-size: cover;
-    background-attachment: scroll;
+@media screen and (max-width: 700px) and (min-height: 710px){
+    body {
+        background-image: url('images/bg_sqr.png');
+        background-size: fill;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    span {
+        color: white;
+        font-size: 3em;
+        position: relative;
+        margin-top: auto;
+        margin-left: 41%;
+        font-family: '8bit';
+        
+    }
+
+    a {
+        display: none;
+    }
 }
 
-h1 {
-    font-family: 'rothenbg';
-    font-size: 100px;
-    text-align: center;
-    color: rgb(179, 0, 0);
-    background-color: black;
-    margin-left: 300px;
-    margin-right: 300px;
-    transition: 1s;
-}
+@media screen and (max-width: 700px) and (max-height: 710px){
 
-h1:hover {
-    background-color: rgb(179, 0, 0);
-    color: black;
-}
+    body {
+        background-color: #3cd45d;
+    }
 
-figure {
-    text-align: center;
-    margin-left: 423px;
-    margin-right: 423px;
-}
+    span {
+        display: none;
+    }
 
-#figcap {
-    color: white;
-    font-family: 'dovahkiin';
-}
+    a {
+        color: rgb(255, 217, 0);
+        font-size: 3em;
+        position: relative;
+        margin-top: auto;
+        margin-left: 39%;
+        font-family: '8bit';
+        text-decoration: none;
+    }
 
-em {
-    font-style: italic;
-}
-
-#link {
-    text-align: right;
-    font-style: italic;
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: cornsilk;
-}
-
-a:active {
-    background-color: crimson;
-}
-
-#section {
-    display: flex;
-}
-
-#latin {
-    width: 250px;
-    height: 250px;
-    text-align: justify;
-    overflow: auto;
+    a:hover{
+        transition: 1s;
+        text-decoration: underline;
+        color: red;
+    }
+    
 }
