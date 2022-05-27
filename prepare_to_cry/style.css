@@ -7,41 +7,66 @@ body {
     background-image: url('background.gif');
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-div.inp {
-    width: 300px;
-    height:300px;
-    border:1px solid black;
+header{
+    display: flex;
+    justify-content: center;
 }
 
-input[type="password"] {
-    display: block;
-    margin-left: 300px;
+h1 {
+    font-family: 'digital-7';
+    font-size: 8em;
+    color: rgb(0, 170, 0);
+    text-align: center;
+    background-color: black;
+    width: fit-content;
 }
+
+input[type=text]{
+    background: black;
+    width: 30%;
+    text-align: center;
+    color: greenyellow;
+    padding: 10px;
+    border-color: green;
+    border-radius: 10px;
+}
+
 
 p {
-    text-align: center;
-    font-size: 100px;
-    color: rgb(23, 255, 2);
-    font-family:'digital-7';
-}
-
-button {
-    padding: 0;
-    background: none;
-    border: none;
-    position: relative;
-    bottom: 312.5px;
-    left: 790px;
-}
-
-input {
-    padding: 0;
-    margin: 0;
-    background: transparent;
-    border: 1px gray solid;
-    font-size: 3em;
+    color: white;
     font-family: 'digital-7';
-    color: rgb(23, 255, 2);
+    font-size: 5em;
+}
+
+input[type=button]{
+    background-color: rgb(78, 184, 78);
+    border: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-family: 'digital-7';
+    font-size: 2em;
+}
+
+input[type=button]:hover{
+    transition: 1s;
+    background-color: rgb(184, 78, 78);
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+    font-family: 'digital-7';
+    font-size: 2em;
+
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
