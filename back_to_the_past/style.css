@@ -34,8 +34,44 @@ audio {
     position: relative;
     bottom: 500px;
     color: rgb(0, 0, 0);
+    background-color: rgb(231, 217, 195);
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 em {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type=text]{
+    position: relative;
+    bottom: 410px;
+    background-color: white;
+    border: solid;
+    font-family: 'bananaSplit';
+    font-size: 20px;
+    width: 10%;
+}
+
+input[type=button]{
+    height: 35px;
+    position: relative;
+    bottom: 412px;
+    right: 32px;
+    border: solid;
+    border-left: none;
+    background-color: bisque;
+}
+
+input[type=button]:hover{
+    transition: 1s;
+    position: relative;
+    bottom: 410px;
+    right: 32px;
+    border: solid black;
+    border-left: none;
+    background-color: rgb(29, 26, 22);
+    color: white;
 }

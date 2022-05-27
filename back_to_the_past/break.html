@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Break</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="../ICONS/begining.png">
+    </head>
+
+    <script>
+        function checkCode(){
+            let text = document.getElementById("inputbox").value;
+            if(document.getElementById("inputbox").value== "obsession"){
+                alert("Well done, now replace the /back_to_the_past/break.html in your url by /sleepwalk/obsession.html");
+            } else {
+                alert("Nah, this is not the answer, try again!");
+            }
+        }
+    </script>
+
+    <body>
+        <p>
+        What about a little music break? <br>
+        <img src="radio.png" alt="radio" width='400px'> <br>
+        <input type="text" id="inputbox">
+        <input type="button" id="but" value="CHECK" onclick="checkCode()">
+        <audio controls autoplay>
+            <source src='song.mp3' type='audio/mpeg'>
+        </audio>
+
+        </p>
+        <div id="texts"> 
+            <p id='hint'>What a beautiful instrument... what was it's name? i forgot it.
+                <br> By the way, you did well on the last puzzle, here is your link: 
+                <br> ....
+                <br> Did you really think i would give it to you like that... HA HA HA HA HA
+                <br> Well, i am a kind dude, so here is a hint: be a man (or women, we are not sexist here) of cultur and listen to real music.
+            </p>
+        </div>
+    </body>
+</html>
